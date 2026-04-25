@@ -10,9 +10,8 @@ import com.moviles.unaroom.ui.theme.UnaRoomTheme
 @Composable
 fun UnaRoomApp() {
     UnaRoomTheme {
-        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            AppNavHost(innerPadding = innerPadding)
-        }
+        AppNavHost()
     }
 }
+
 
